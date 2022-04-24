@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+     h1,h2{
+        padding-top: 1%; 
+        color: #f9f9f9;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom:1%;
+     }
+     p{
+        color: #f9f9f9;
+     }
+     img{
+     	display:block;
+     	margin-left: auto;
+     	margin-right:auto;
+     	margin-top:50px;
+     }
+     label{
+        margin-left: 43%;
+     	margin-top:1%;
+     	margin-bottom:1%;
+     	color:white;
+     }
+     input[type=submit]{
+     	display:block;
+        margin-left: 35%;
+     	margin-top:1%;
+     	height: 50px;
+  		width: 500px;
+     	
+     	margin-bottom:1%;
+     	font-size:20px;
+     }
+     
+  </style>
+</head>
+	<body>
+	       <a href="index.html"><img width="90" height="90" src = "Apex Logo.PNG" alt = "ApexLogo" id="ApexLogo"></img>
+</a>	       <h1>Sign up for Apex</h1>
+	       <h2>Only takes a few minutes</h2>
+	       <form action="StudentSignup.php">
+	       <label for="studSubmit"></label><br>
+	       	<input type="submit" id="studSubmit" value="Sign up as a Student">
+	       </form>
+	       <form action="InstructorSignup.php" >
+	       <label for="InstructorSubmit"></label><br>
+	       	<input type="submit" id="InstructorSubmit" value="Sign up as a Instructor">
+	       </form>
+	   
+	</body>
+</html>

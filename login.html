@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+     h1,h2{
+        padding-top: 1%; 
+        color: #f9f9f9;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom:1%;
+     }
+     p{
+        color: #f9f9f9;
+     }
+     img{
+     	display:block;
+     	margin-left: auto;
+     	margin-right:auto;
+     	margin-top:50px;
+     }
+     label{
+        margin-left: 43%;
+     	margin-top:1%;
+     	margin-bottom:1%;
+     	color:white;
+     }
+     input{
+     	margin-left: 43%;
+     	width:190px;
+     	height:25px;
+     	margin-top:1%;
+     	margin-bottom:1%;
+     	
+     }
+     EmailLabelInput {
+     	margin-top : 30px;
+     }
+     PassLabelInput{
+     	
+     }
+  </style>
+</head>
+	<body>
+	       <a href="index.html"><img width="90" height="90" src = "Apex Logo.PNG" alt = "ApexLogo" id="ApexLogo"></img>
+</a>	       <h1>Log in to Apex</h1>
+	       <h2>Welcome back! Please log in below</h2>
+	       <form action="LoginSucess.php" method="post">
+	       	<div id="EmailLabelInput">
+	       		<label for="userEmail">Email: </label><br>
+	       		<input type="email" id="userEmail" name="userName"><br>
+	       	</div>
+	       	
+	       	<div id="PassLabelInput" >
+	       		<label for="userPassword">Password: </label><br>
+	       		<input type="password" id="userPassword" name="password"><br>
+	       	</div>
+	       		<input type="submit" value="Login">
+	       </form>
+	   
+	</body>
+</html>
